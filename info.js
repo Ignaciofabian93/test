@@ -191,11 +191,12 @@ const granjas = [
 
 // INSERTAR VALORES A LA BASE DE DATOS EN SUS RESPECTIVAS TABLAS (HACERLO DIRECTAMENTE DESDE PGADMIN)
 
-// MOSTRAR ARREGLO CON LOS RUTS Y NOMBRES DE LOS ADMINISTRADORES ORDENADOS POR NOMBRE
+// PUEDEN HACERLO MANIPULANDO LOS OBJETOS DIRECTAMENTE O HACERLO CON CONSULTAS SQL Y PROCESANDO LOS DATOS
+//1 Mostrar arreglo con los ruts y nombres de los administradores ordenados por nombre
 
-// Arreglo con los nombres de cada tipo de cultivo, ordenados decrecientemente por la suma TOTAL de la cantidad de hectáreas plantadas de cada uno de ellos.
+//2 Arreglo con los nombres de cada tipo de cultivo, ordenados decrecientemente por la suma TOTAL de la cantidad de hectáreas plantadas de cada uno de ellos.
 
-// Arreglo con nombres de los administradores de la FORESTAL Y AGRÍCOLA LO ENCINA, ordenados por nombre, que trabajen más de 1000 m2 de Cerezas
+//3 Arreglo con nombres de los administradores de la FORESTAL Y AGRÍCOLA LO ENCINA, ordenados por nombre, que trabajen más de 1000 m2 de Cerezas
 
-// Objeto en que las llaves (keys) sean el tipo de cultivo concatenado con su año de plantación (la concatenación tiene un separador de guión ‘-’, por ejemplo AVELLANOS-2020) y el valor otro objeto en el cual la clave sea el id del administrador y el valor el nombre del administrador
+//4 Objeto en que las llaves (keys) sean el tipo de cultivo concatenado con su año de plantación (la concatenación tiene un separador de guión ‘-’, por ejemplo AVELLANOS-2020) y el valor otro objeto en el cual la clave sea el id del administrador y el valor el nombre del administrador
 // Ejemplo: { "AVELLANOS-2020": { 2: "EFRAIN SOTO VERA" } }

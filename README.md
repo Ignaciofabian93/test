@@ -89,3 +89,13 @@ ORDER BY nombrecolumna ASC / ORDER BY nombrecolumna DESC
 
 > ASC: ascendente
 > DESC: descendente
+
+### Para seleccionar datos de una tabla
+
+```
+SELECT * FROM nombretabla   --> Selecciona todas las columnas
+
+ o
+
+SELECT column1, column2, ...etc FROM nombretabla   --> Selecciona solo las columnas indicadas
+```
